@@ -1,6 +1,8 @@
 class Api::UsersController < ApplicationController
   # skip_before_action :authenticate_user, only: :index  # not valid line go wit oauth2 or devise with auth token or simple httpuser and password
   #http_basic_authenticate_with name: "admin", password: "secret"
+  def test
+  end
   def index
     @user = User.all
     respond_to do | format |
