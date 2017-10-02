@@ -1,0 +1,28 @@
+<%= render "errors" %>
+<%= form_for @product do | f | %>
+<table class="table table-striped">
+  <tr>
+    <td><%= f.label :title%></td>
+    <td><%= f.text_field :title%></td>
+  </tr>
+  <tr>
+    <td><%= f.label :brand%></td>
+    <td><%= f.text_field :brand%></td>
+  </tr>
+  <tr>
+    <td><%= f.label :size%></td>
+    <td><%= f.select :size, ["M", "S", "L", "XL"]%></td>
+  </tr>
+  <tr>
+    <%= f.fields_for :image do | image |%>
+    <td><%= image.label :photo%></td>
+    <td><%= image.file_field :photo, multiple: true%></td>
+    <%end%>
+  </tr>
+  <tr>
+    <td><%= f.submit "Save" %></td>
+  </tr>
+</table>
+<%end%>
+
+<%= link_to "SignIn", login_users_path%>

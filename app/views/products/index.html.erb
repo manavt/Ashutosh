@@ -1,0 +1,32 @@
+<%= "Logged in as #{signed_in_as}"%>
+<%= link_to "Download in CSV", download_in_csv_products_path(format: 'csv'), :class=>"btn btn-primary", :style=>"float:right"%>
+<table class="table table-striped">
+  <tr>
+    <th>Photo</th>
+    <th>Title</th>
+    <th>Brand</th>
+    <th>Size</th>
+    <th>Price</th>
+  </tr>
+  <tr>
+    <% @products.each do | product |%>
+      <tr>
+        <td>
+          <% if not product.images.blank? %>
+          <% product.images.each do | j |%>
+          <%= image_tag j.photo(:small)  %>
+          <%end%>
+          <%end%>
+        </td>
+        <td><%= product.title%></td>
+        <td><%= product.brand%></td>
+        <td><%= product.size%></td>
+        <td><%= product.price%></td>
+        <td><%= link_to "Buy", payments_process_payment_path(product_id: product.id)%></td>
+      </tr>
+    <%end%>
+  </tr>
+</table>
+<%= will_paginate @products %>
+
+<%= link_to "+Products", new_product_path, :class=>"btn btn-primary"%>

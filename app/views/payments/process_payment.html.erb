@@ -1,0 +1,20 @@
+<%=form_tag action: :call_braintree, method: :post, product_id: params[:product_id] do%>
+  <table class = "table table-striped">
+      <tr>
+        <td><%= label_tag :name%></td>
+        <td><%= text_field_tag :name%></td>
+      </tr>
+      <tr>
+        <td><%= label_tag :credit_card_number%></td>
+        <td><%= text_field_tag :credit_card_number%></td>
+      </tr>
+      <tr>
+        <td><%= label_tag :expiration_date%></td>
+        <td><%= select_date(Date.current, prompt: {day: 'Choose day', month: 'Choose month', year: 'Choose year'}) %></td>
+      </tr>
+      <tr>
+      <td><%= submit_tag "Pay"%></td>
+      <td></td>
+      </tr>
+  </table>
+<%end%>

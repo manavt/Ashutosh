@@ -1,0 +1,15 @@
+development:
+  adapter: mysql2
+  database: sample_ecom
+  username: root
+  password: MyNewPass
+  host: localhost
+  socket: /tmp/mysql.sock
+
+production:
+  adapter: mysql2
+  database: sample_ecom
+  username: root
+  password: MyNewPass
+  host: localhost
+  socket: /tmp/mysql.sock

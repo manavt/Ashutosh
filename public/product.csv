@@ -1,0 +1,44 @@
+id,title,brand,size,price,created_at,updated_at
+1,Jeans,Lee,M,100,2017-08-20 03:53:26 UTC,2017-09-17 01:37:35 UTC
+2,Jeans,Levis,M,200,2017-08-20 03:55:14 UTC,2017-09-17 01:37:35 UTC
+3,Jeans,Lee,M,300,2017-08-20 03:55:56 UTC,2017-09-17 01:37:35 UTC
+4,Shirt1,le,M,400,2017-08-20 03:59:14 UTC,2017-09-17 01:37:35 UTC
+5,Jeans,Lee,M,100,2017-09-30 04:03:23 UTC,2017-09-30 04:03:23 UTC
+6,Jeans,Levis,M,200,2017-09-30 04:03:23 UTC,2017-09-30 04:03:23 UTC
+7,Jeans,Lee,M,300,2017-09-30 04:03:23 UTC,2017-09-30 04:03:23 UTC
+8,Jeans,Lee,M,100,2017-09-30 04:07:56 UTC,2017-09-30 04:07:56 UTC
+9,Jeans,Levis,M,200,2017-09-30 04:07:56 UTC,2017-09-30 04:07:56 UTC
+10,Jeans,Lee,M,300,2017-09-30 04:07:56 UTC,2017-09-30 04:07:56 UTC
+11,Shirt1,le,M,400,2017-09-30 04:07:57 UTC,2017-09-30 04:07:57 UTC
+id,title,brand,size,price,created_at,updated_at,image
+id,title,brand,size,price,created_at,updated_at,image
+1,Jeans,Lee,M,100,2017-08-20 03:53:26 UTC,2017-09-17 01:37:35 UTC,NO image
+2,Jeans,Levis,M,200,2017-08-20 03:55:14 UTC,2017-09-17 01:37:35 UTC,NO image
+id,title,brand,size,price,created_at,updated_at,image
+1,Jeans,Lee,M,100,2017-08-20 03:53:26 UTC,2017-09-17 01:37:35 UTC,NO image
+2,Jeans,Levis,M,200,2017-08-20 03:55:14 UTC,2017-09-17 01:37:35 UTC,NO image
+3,Jeans,Lee,M,300,2017-08-20 03:55:56 UTC,2017-09-17 01:37:35 UTC,/Users/1228369/Ashutosh/sample_ecom/public/system/images/photos/000/000/002/original/jeans1.jpg
+4,Shirt1,le,M,400,2017-08-20 03:59:14 UTC,2017-09-17 01:37:35 UTC,/Users/1228369/Ashutosh/sample_ecom/public/system/images/photos/000/000/003/original/s1.jpeg,/Users/1228369/Ashutosh/sample_ecom/public/system/images/photos/000/000/004/original/s2.jpeg
+5,Jeans,Lee,M,100,2017-09-30 04:03:23 UTC,2017-09-30 04:03:23 UTC,NO image
+6,Jeans,Levis,M,200,2017-09-30 04:03:23 UTC,2017-09-30 04:03:23 UTC,NO image
+7,Jeans,Lee,M,300,2017-09-30 04:03:23 UTC,2017-09-30 04:03:23 UTC,NO image
+8,Jeans,Lee,M,100,2017-09-30 04:07:56 UTC,2017-09-30 04:07:56 UTC,NO image
+9,Jeans,Levis,M,200,2017-09-30 04:07:56 UTC,2017-09-30 04:07:56 UTC,NO image
+10,Jeans,Lee,M,300,2017-09-30 04:07:56 UTC,2017-09-30 04:07:56 UTC,/Users/1228369/Ashutosh/sample_ecom/public/system/images/photos/000/000/010/original/jeans1.jpg
+11,Shirt1,le,M,400,2017-09-30 04:07:57 UTC,2017-09-30 04:07:57 UTC,/Users/1228369/Ashutosh/sample_ecom/public/system/images/photos/000/000/011/original/s1.jpeg,/Users/1228369/Ashutosh/sample_ecom/public/system/images/photos/000/000/012/original/s2.jpeg
+id,title,brand,size,price,created_at,updated_at,image
+1,Jeans,Lee,M,100,2017-08-20 03:53:26 UTC,2017-09-17 01:37:35 UTC,NO image
+2,Jeans,Levis,M,200,2017-08-20 03:55:14 UTC,2017-09-17 01:37:35 UTC,NO image
+3,Jeans,Lee,M,300,2017-08-20 03:55:56 UTC,2017-09-17 01:37:35 UTC,/Users/1228369/Ashutosh/sample_ecom/public/system/images/photos/000/000/002/original/jeans1.jpg
+4,Shirt1,le,M,400,2017-08-20 03:59:14 UTC,2017-09-17 01:37:35 UTC,/Users/1228369/Ashutosh/sample_ecom/public/system/images/photos/000/000/003/original/s1.jpeg,/Users/1228369/Ashutosh/sample_ecom/public/system/images/photos/000/000/004/original/s2.jpeg
+5,Jeans,Lee,M,100,2017-09-30 04:03:23 UTC,2017-09-30 04:03:23 UTC,NO image
+6,Jeans,Levis,M,200,2017-09-30 04:03:23 UTC,2017-09-30 04:03:23 UTC,NO image
+7,Jeans,Lee,M,300,2017-09-30 04:03:23 UTC,2017-09-30 04:03:23 UTC,NO image
+8,Jeans,Lee,M,100,2017-09-30 04:07:56 UTC,2017-09-30 04:07:56 UTC,NO image
+9,Jeans,Levis,M,200,2017-09-30 04:07:56 UTC,2017-09-30 04:07:56 UTC,NO image
+10,Jeans,Lee,M,300,2017-09-30 04:07:56 UTC,2017-09-30 04:07:56 UTC,/Users/1228369/Ashutosh/sample_ecom/public/system/images/photos/000/000/010/original/jeans1.jpg
+11,Shirt1,le,M,400,2017-09-30 04:07:57 UTC,2017-09-30 04:07:57 UTC,/Users/1228369/Ashutosh/sample_ecom/public/system/images/photos/000/000/011/original/s1.jpeg,/Users/1228369/Ashutosh/sample_ecom/public/system/images/photos/000/000/012/original/s2.jpeg
+id,title,brand,size,price,created_at,updated_at,image
+id,title,brand,size,price,created_at,updated_at,image
+id,title,brand,size,price,created_at,updated_at,image
+id,title,brand,size,price,created_at,updated_at,image

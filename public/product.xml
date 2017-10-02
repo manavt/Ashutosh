@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects type="array">
+  <object>
+    <id type="integer">1</id>
+    <title>Jeans</title>
+    <brand>Lee</brand>
+    <size>M</size>
+    <price>100</price>
+    <images type="array"/>
+  </object>
+  <object>
+    <id type="integer">2</id>
+    <title>Jeans</title>
+    <brand>Levis</brand>
+    <size>M</size>
+    <price>200</price>
+    <images type="array"/>
+  </object>
+  <object>
+    <id type="integer">3</id>
+    <title>Jeans</title>
+    <brand>Lee</brand>
+    <size>M</size>
+    <price>300</price>
+    <images type="array">
+      <image>/Users/1228369/Ashutosh/sample_ecom/public/system/images/photos/000/000/002/original/jeans1.jpg</image>
+    </images>
+  </object>
+  <object>
+    <id type="integer">4</id>
+    <title>Shirt1</title>
+    <brand>le</brand>
+    <size>M</size>
+    <price>400</price>
+    <images type="array">
+      <image>/Users/1228369/Ashutosh/sample_ecom/public/system/images/photos/000/000/003/original/s1.jpeg</image>
+      <image>/Users/1228369/Ashutosh/sample_ecom/public/system/images/photos/000/000/004/original/s2.jpeg</image>
+    </images>
+  </object>
+  <object>
+    <id type="integer">5</id>
+    <title>Jeans</title>
+    <brand>Lee</brand>
+    <size>M</size>
+    <price>100</price>
+    <images type="array"/>
+  </object>
+  <object>
+    <id type="integer">6</id>
+    <title>Jeans</title>
+    <brand>Levis</brand>
+    <size>M</size>
+    <price>200</price>
+    <images type="array"/>
+  </object>
+  <object>
+    <id type="integer">7</id>
+    <title>Jeans</title>
+    <brand>Lee</brand>
+    <size>M</size>
+    <price>300</price>
+    <images type="array"/>
+  </object>
+  <object>
+    <id type="integer">8</id>
+    <title>Jeans</title>
+    <brand>Lee</brand>
+    <size>M</size>
+    <price>100</price>
+    <images type="array"/>
+  </object>
+  <object>
+    <id type="integer">9</id>
+    <title>Jeans</title>
+    <brand>Levis</brand>
+    <size>M</size>
+    <price>200</price>
+    <images type="array"/>
+  </object>
+  <object>
+    <id type="integer">10</id>
+    <title>Jeans</title>
+    <brand>Lee</brand>
+    <size>M</size>
+    <price>300</price>
+    <images type="array">
+      <image>/Users/1228369/Ashutosh/sample_ecom/public/system/images/photos/000/000/010/original/jeans1.jpg</image>
+    </images>
+  </object>
+  <object>
+    <id type="integer">11</id>
+    <title>Shirt1</title>
+    <brand>le</brand>
+    <size>M</size>
+    <price>400</price>
+    <images type="array">
+      <image>/Users/1228369/Ashutosh/sample_ecom/public/system/images/photos/000/000/011/original/s1.jpeg</image>
+      <image>/Users/1228369/Ashutosh/sample_ecom/public/system/images/photos/000/000/012/original/s2.jpeg</image>
+    </images>
+  </object>
+</objects>
