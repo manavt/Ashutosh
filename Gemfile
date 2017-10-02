@@ -12,7 +12,7 @@ gem 'rails', '~> 5.1.1'
 #gem 'sqlite3'
 #gem 'mysql2'
 gem 'pg'
-gem 'calc'
+#gem 'calc'
 gem 'will_paginate'
 gem 'better_errors'
 gem "binding_of_caller"

@@ -57,7 +57,6 @@ GEM
       builder (>= 2.0.0)
     builder (3.2.3)
     byebug (9.0.6)
-    calc (0.0.1)
     capybara (2.14.4)
       addressable
       mime-types (>= 1.16)
@@ -229,7 +228,6 @@ DEPENDENCIES
   bootstrap-sass
   braintree
   byebug
-  calc
   capybara (~> 2.13)
   coffee-rails (~> 4.2)
   jbuilder (~> 2.5)
