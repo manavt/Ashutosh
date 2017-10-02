@@ -12,7 +12,7 @@
 
 ActiveRecord::Schema.define(version: 20170917012839) do
 
-  create_table "images", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
+  create_table "images", force: :cascade do |t|
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.string "photo_file_name"
@@ -23,7 +23,7 @@ ActiveRecord::Schema.define(version: 20170917012839) do
     t.string "entity_type"
   end
 
-  create_table "products", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
+  create_table "products", force: :cascade do |t|
     t.string "title"
     t.string "brand"
     t.string "size"
@@ -32,14 +32,14 @@ ActiveRecord::Schema.define(version: 20170917012839) do
     t.datetime "updated_at", null: false
   end
 
-  create_table "sports", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
+  create_table "sports", force: :cascade do |t|
     t.string "name"
     t.string "type"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
 
-  create_table "users", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
+  create_table "users", force: :cascade do |t|
     t.string "name"
     t.string "email"
     t.string "password"
